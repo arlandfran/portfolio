@@ -2,4 +2,4 @@
 	<title>About Me</title>
 </svelte:head>
 
-<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4">about me</h1>
+<h1 class="mb-4 text-3xl font-bold tracking-tight md:text-5xl">about me</h1>

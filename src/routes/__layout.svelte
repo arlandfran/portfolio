@@ -7,6 +7,6 @@
 
 <Nav />
 
-<main class="px-8 flex flex-shrink-0">
+<main class="flex flex-shrink-0 px-8">
 	<slot />
 </main>
