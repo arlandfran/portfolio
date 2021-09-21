@@ -12,6 +12,7 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@fontsource/inter": "^4.5.0",
     "@sveltejs/adapter-static": "^1.0.0-next.19",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.3.4",
