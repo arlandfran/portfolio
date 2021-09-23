@@ -1,32 +1,23 @@
 <script>
-	import Card from '../components/Card.svelte';
-
-	const projects = [
-		{ title: 'the beginners gambit' },
-		{ title: 'anime corner rankings' },
-		{ title: 'personal portfolio' }
-	];
+	import DisplayProjects from '../components/DisplayProjects.svelte';
 </script>
 
 <svelte:head>
 	<title>Arland Fran Torres</title>
 </svelte:head>
 
-<section>
-	<h1 class="mb-4 text-3xl font-bold tracking-tight md:text-5xl">Hello, I'm Arland</h1>
+<section class="">
+	<h1 class="mb-2 text-3xl font-bold tracking-tight md:text-5xl md:mb-4">Hello, I'm Arland.</h1>
 
-	<p class="mb-16 text-base tracking-tight leading-loose md:text-xl">
-		and this is my portfolio site. I'm currently studying software development with @code institute,
-		but when I'm not coding I work as a web sales & support advisor for @microsoft.
+	<p class="mb-8 text-base tracking-tight leading-loose md:mb-16 md:text-xl">
+		This is my <strong>portfolio</strong> 🐱‍💻 Check out what I've worked on!
 	</p>
 </section>
 
 <section>
-	<h2 class="mb-4 text-2xl font-bold tracking-tight md:text-4xl">Check out my projects:</h2>
+	<h2 class="mb-4 text-2xl font-bold tracking-tight md:text-4xl">Projects:</h2>
 
-	<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-		{#each projects as { title }}
-			<Card {title} />
-		{/each}
+	<div class="grid grid-cols-1 gap-2 md:justify-items-center md:gap-8 md:grid-cols-2">
+		<DisplayProjects />
 	</div>
 </section>

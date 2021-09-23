@@ -1,5 +1,50 @@
+:root {
+	--system-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 #svelte {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+#the-beginners-gambit {
+	font-family: Poppins, var(--system-sans);
+}
+
+#pawn {
+	display: inline;
+	width: 12px;
+	fill: #6610f2;
+}
+
+@media (min-width: 1024px) {
+	#pawn {
+		width: 16px;
+	}
+}
+
+#anime-corner-rankings {
+	font-family: var(--system-sans);
+	text-decoration: underline;
+	text-decoration-color: #f3667b;
+}
+
+#workability-icon {
+	display: inline;
+	width: 48px;
+	margin-right: 6px;
+	fill: none
+}
+
+@media (min-width: 1024px) {
+	#workability-icon  {
+		width: 64px;
+	}
+}
+
+#workability-text {
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: #57b894;
 }
