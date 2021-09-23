@@ -10,14 +10,12 @@
 	<h1 class="mb-2 text-3xl font-bold tracking-tight md:text-5xl md:mb-4">Hello, I'm Arland.</h1>
 
 	<p class="mb-8 text-base tracking-tight leading-loose md:mb-16 md:text-xl">
-		This is my <strong>portfolio</strong> 🐱‍💻 Check out what I've worked on!
+		This is my portfolio 🐱‍💻 Check out what I've worked on!
 	</p>
 </section>
 
 <section>
 	<h2 class="mb-4 text-2xl font-bold tracking-tight md:text-4xl">Projects:</h2>
 
-	<div class="grid grid-cols-1 gap-2 md:justify-items-center md:gap-8 md:grid-cols-2">
-		<DisplayProjects />
-	</div>
+	<DisplayProjects />
 </section>
